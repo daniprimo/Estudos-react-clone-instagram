@@ -34,6 +34,10 @@ Navigation
 Dando problema não reconhecendo modulo tive que baixar esta dependência
 $ npm install --save react-native-gesture-handler
 Devido um error de hermes, por conta da versão axios esta dando problema, tive que instalar a versão anterior do Axios
+
 (4) Restricted in strict mode, js engine: hermes (React Native + Axios 1.0.0) · Issue #4998 · axios/axios (github.com)
+
 axios - npm (npmjs.com)
+
+
 $ npm i axios@0.26.0
