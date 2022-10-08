@@ -4,6 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Feed from './pages/feed';
 
+import Header from './components/Header';
+
 const Stack = createStackNavigator();
 
 export default function Routes() {
@@ -14,8 +16,7 @@ export default function Routes() {
                     name="feed"
                     component={Feed}
                     options={{
-                        title: 'Instagram',
-                        headerTitleAlign: 'center',
+                        headerTitle: () => <Header />,
                         headerStyle: {
                             backgroundColor: '#f5f5f5',
                         },
